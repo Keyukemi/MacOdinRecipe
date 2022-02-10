@@ -1,6 +1,41 @@
 body {
-    max-width: 600px;
+    max-width: 1000px;
     margin: 0 auto;
+  }
+
+  .header  {
+    font-family: monospace;
+    background: papayawhip;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    font-size: 48px;
+    font-weight: 900;
+    color: tomato;
+    background: white;
+    padding: 4px 32px;
+
+  }
+
+  ul {
+    /* this removes the dots on the list items*/
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 8px;
+  }
+  
+  a {
+    font-size: 22px;
+    background: white;
+    padding: 8px;
+    /* this removes the line under the links */
+    text-decoration: none;
   }
   
   .one {
@@ -25,4 +60,24 @@ body {
     /* CHANGE ME */
     padding: 32px;
     margin-left: auto;
+  }
+
+  .about {
+    background: rgb(228, 125, 206);
+    border: 4px solid midnightblue;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+
+  }
+
+  .box1 {
+    background: palevioletred;
+    text-align: center;
+    border: 6px solid midnightblue;
+    width: 120px;
+    height: 120px;
   }
