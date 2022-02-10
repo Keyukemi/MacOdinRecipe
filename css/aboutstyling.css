@@ -6,6 +6,7 @@ body {
   margin: 0;
   background: #eee;
   font-family: Besley, serif;
+  text-align: center;
 }
 
 .header {
@@ -59,4 +60,114 @@ ul {
   display: flex;
   align-items: center;
   gap: 16px;
+}
+
+.info {
+  max-width: 200px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.text {
+  justify-content: center;
+  font-family: 'Courier New', Courier, monospace;
+  margin-bottom: 16px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+/* The pop-up styling  */
+.modal {
+  background: white;
+  width: 480px;
+  border-radius: 10px;
+  box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+}
+
+.icon {
+  color: rebeccapurple;
+  font-size: 26px;
+  font-weight: 700;
+  background: lavender;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.header2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.close-button {
+  background: #eee;
+  border-radius: 50%;
+  color: #888;
+  font-weight: 400;
+  font-size: 16px;
+  height: 24px;
+  width: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+
+button.continue {
+  border: 1px solid rebeccapurple;
+  color: white;
+  background: rebeccapurple;
+}
+
+button.cancel {
+  background: white;
+  border: 2px solid #ddd;
+  color: rebeccapurple;
+}
+
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 52px;
+  display: flex;
+  align-items: center;;
+  justify-content: center;
+  background: #eee;
 }
